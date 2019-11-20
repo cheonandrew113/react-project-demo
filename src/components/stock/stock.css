@@ -1,0 +1,120 @@
+.box {
+  height: 370px;
+  padding-bottom: 15px;
+  width: 110%;
+}
+
+.content {
+  background-color: #e3e4e6;
+  height: 990%;
+  text-align: center;
+  margin-top: 500px;
+  transition:0.3s;
+}
+
+.form-inline {  
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+}
+#main-stock-name{
+  padding-left: 20px;
+  width: 100%;
+}
+
+#table-row{
+  height: 10px;
+  text-align:  center;
+  padding: 2px;
+}
+
+#stock-detail{
+  border-left: 1px solid rgb(226, 224, 224);
+  border-right: 1px solid rgb(226, 224, 224);
+  table-layout: fixed;
+  width: 70%;
+
+}
+
+#header {
+  text-align: left;
+  padding: 11px;
+  color:white;
+  background-color: #003378;
+  width: 100%;
+}
+
+
+#dropdown {
+  vertical-align: middle;
+  margin: 5px 10px 5px 0;
+  padding: 10px;
+  background: white;
+  border: 1px ;
+  height: 10%;
+  width: 50%;
+  position: relative;
+  font-size: 20px;
+  /* marginRight: 0.5em; */
+  display: inline-block;
+  /* borderRadius: 3; */
+  /* width: 1em;
+  height: 1em; */
+}
+
+#enter-button {
+  padding: 10px 20px;
+  background-color: dodgerblue;
+  border: 1px solid #ddd;
+  color: white;
+  cursor: pointer;
+  text-align: center;
+  vertical-align: middle;
+}
+
+#enter-button:hover {
+  background-color: royalblue;
+}
+
+
+
+::placeholder{
+  color: #616161
+}
+
+#container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  padding-top: 70px;
+}
+
+.stock-related{
+  width: 60%;
+  padding-left:100px;
+  padding-top: 20px;
+}
+
+#instructions{
+  width: 20%;
+  padding-left: 50px;
+  padding-top: 20px;
+}
+
+.header{
+  padding: 10px;
+  border-style: dotted;
+  border-width: 1p;
+}
+
+.instruction-detail{
+  font-size: 1.2em
+}
+
+.card-content {
+  width: 120%;
+}
+
+.stock-chart-width{
+  width: 100%;
+}

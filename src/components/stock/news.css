@@ -1,0 +1,25 @@
+/* .image {
+    height: 10%;
+    width: 30%;
+  } */
+
+  #news-image{
+    width: 150px  ;
+    height: 100px;
+    padding: 9px;
+  }
+
+/* 
+  #news-cards{
+    width: 140%;
+    height: 10%;
+  } */
+/* 
+  #news-image{
+    width: 20;
+    height: 10;
+  } */
+
+#p-tag {
+    font-size: 120%;
+  }

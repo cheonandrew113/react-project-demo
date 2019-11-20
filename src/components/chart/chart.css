@@ -1,0 +1,13 @@
+#enter-button {
+    padding: 10px 20px;
+    background-color: dodgerblue;
+    border: 1px solid #ddd;
+    color: white;
+    cursor: pointer;
+    text-align: center;
+    vertical-align: middle;
+  }
+  
+  .form-inline button:hover {
+    background-color: royalblue;
+  }
