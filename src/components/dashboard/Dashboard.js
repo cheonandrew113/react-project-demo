@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import Stock from '../stock/Stock'
-import Notifications from './Notifications'
 import { connect } from 'react-redux'
 import { firestoreconnect, firestoreConnect } from 'react-redux-firebase'
 import { compose } from 'redux'
